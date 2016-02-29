@@ -1,0 +1,6 @@
+#
+# /etc/ports/flyingpreacher.httpup: Milton Smith's Crux ports
+#
+
+ROOT_DIR=/usr/ports/flyingpreacher
+URL=https://raw.githubusercontent.com/flyingpreacher/my-crux/master/
