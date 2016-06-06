@@ -1,0 +1,32 @@
+HERE IS WHAT I MUST DO EACH TIME TO AVOID/LESSEN COMPILING ERRORS"
+1. GET SOFTWARE PACKAGE REQUIREMENTS
+2. WRITE THEM DOWN (so I don't lose track of my focus)
+3. TRY TO FIND DEPS IN CRUX LINUX REPOS
+4. IF CRUX DOES NOT HAVE IT, DOWNLOAD SOURCE CODE AND COMPILE. (always read the dependency list for the source code from the original site. Some of the deps may have changed.)
+
+tar -zxvf <file_name> (HOW TO EXTRACT SOURCE CODE FILES)
+
+
+#Problem: I am trying to find a way to print out the currently installed packages on my CRUX Linux Installation. In order to do that, I must have printer drivers. This means I need to install hplip.
+
+What are the minimum system requirements for HPLIP?
+Answer: 
+
+    + Linux kernel 2.4.19 and above (2.6.x recommended).
+    + GNU software tools are required to build from source code. This includes the ANSI C compiler, ANSI C++ compiler and POSIX compliant environment.
+    + libusb 0.1.8 or higher.
+    - GPL Ghostscript 7.05 or higher.
+    - Foomatic 3.0.2 or higher.
+    - Qt 3.x or higher for UI toolkit.
+    - PyQt 3.14 or higher for Qt wrapper for Python.
+    + Python 2.2 or higher and python-devel (Python 2.3+ for fax support)
+    - Reportlab (optional-provides fax cover page support)
+    + CUPS 1.1.15 or higher and cups-devel.
+    - libjpeg 6b or higher and libjpeg-devel.
+    - net-snmp 5.0.9 or higher and net-snmp-devel for network support.
+    + CUPS DDK 1.2 or higher for dynamic PPD support.
+
+Ok, here we go. What do I have?
++ means I already have it
+- means I have to compile/install it
+
