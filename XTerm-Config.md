@@ -1,4 +1,4 @@
-Adding A Scrollbar To XTerm<br>
+####Adding A Scrollbar To XTerm<br>
 http://beforewisdom.com/blog/tech/xterm-with-a-scrollbar/
 
 
@@ -39,3 +39,21 @@ Then do this command:
     xrdb -merge /etc/X11/app-defaults/XTerm
     
 This is needed to get the line to complete successfully.
+
+
+####Change Font Size and Appearance
+
+	$ nano ~/.Xresources
+	
+	XTerm*faceName: Monospace:size=14 (add this to your .Xresources file)
+	
+	$ xrdb -merge ~/.Xresources
+	
+Done!
+
+
+	
+
+	
+
+
