@@ -41,7 +41,8 @@ Then do this command:
 This is needed to get the line to complete successfully.
 
 
-####Change Font Size and Appearance
+####Change Font Size and Appearance<br>
+http://askubuntu.com/questions/331770/how-do-i-customize-xterm?rq=1
 
 	$ nano ~/.Xresources
 	
