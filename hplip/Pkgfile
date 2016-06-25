@@ -1,7 +1,7 @@
 # Description:	HP Printing and scanning for Linux
 # URL:		http://hplipopensource.com/
 # Maintainer:	Milton Smith, miltonsj at gmail dot com
-# Depends on:	cups sane libusb foomatic-filters
+# Depends on:	cups cups-devel cups-image sane libusb foomatic-filters
 
 name=hplip
 version=3.16.5
